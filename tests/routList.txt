@@ -1,0 +1,43 @@
+DELETE          account/profiles/{profile} account.profiles.destroy › Accou…   Не прописан в самом контроллере
+DELETE          account/users/{user} account.users.destroy › Account\UserCo…   Не прописан в самом контроллере
+PUT|PATCH       account/profiles/{profile} account.profiles.update › Accoun…
+
+
+  POST            email/verification-notification verification.send › Auth\EmailVerificationNotificationController@store
+  POST            subscriptions ............................... subscriptions.store › SubscriptionController@store
+  PUT|PATCH       subscriptions/{subscription} .............. subscriptions.update › SubscriptionController@update
+  DELETE          subscriptions/{subscription} ............ subscriptions.destroy › SubscriptionController@destroy
+
+                        (Роуты авторизации )
+  GET|HEAD        confirm-password .... password.confirm › Auth\ConfirmablePasswordController@show
+  POST            confirm-password ...................... Auth\ConfirmablePasswordController@store
+  GET|HEAD        forgot-password ..................... password.request › Auth\PasswordResetLinkController@create
+  POST            forgot-password ........................ password.email › Auth\PasswordResetLinkController@store
+  GET|HEAD        login ....................................... login › Auth\AuthenticatedSessionController@create
+  POST            login ................................................ Auth\AuthenticatedSessionController@store
+  POST            logout .................................... logout › Auth\AuthenticatedSessionController@destroy
+  GET|HEAD        register ....................................... register › Auth\RegisteredUserController@create
+  POST            register ................................................... Auth\RegisteredUserController@store
+  POST            reset-password .............................. password.update › Auth\NewPasswordController@store
+  GET|HEAD        reset-password/{token} ...................... password.reset › Auth\NewPasswordController@create
+  GET|HEAD        sanctum/csrf-cookie .......... sanctum.csrf-cookie › Laravel\Sanctum › CsrfCookieController@show
+
+
+
+
+
+  PUT|PATCH       gymReviews/{gymReview} ............................................. gymReviews.update › GymReviewController@update
+  DELETE          gymReviews/{gymReview} ........................................... gymReviews.destroy › GymReviewController@destroy
+
+
+
+
+
+
+
+
+
+
+
+
+

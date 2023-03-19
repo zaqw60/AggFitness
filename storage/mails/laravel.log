@@ -1,0 +1,302 @@
+[2022-11-16 09:46:22] local.DEBUG: From: Laravel <noreply@fitnesproject.com>
+To: konakov8811111111@gmail.com
+Subject: Send Mail
+MIME-Version: 1.0
+Date: Wed, 16 Nov 2022 09:46:22 +0000
+Message-ID: <560feff3e19d97accaf2765189ac512c@fitnesproject.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html lang=3D"en">
+
+<head>
+    <meta charset=3D"utf=
+-8">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial=
+-scale=3D1">
+    <title>AggFitness:     =D0=A1=D0=BF=D0=B8=D1=81=D0=
+=BE=D0=BA =D1=82=D1=80=D0=B5=D0=BD=D0=B5=D1=80=D0=BE=D0=B2      </title>
+=
+
+    <link href=3D"http://localhost/assets/css/bootstrap.min.css" rel=3D"=
+stylesheet">
+    <link href=3D"http://localhost/assets/css/font-awesome.m=
+in.css" rel=3D"stylesheet">
+    <link href=3D"http://localhost/assets/css=
+/carousel.css" rel=3D"stylesheet">
+    <!-- MAIN CSS -->
+    <link href=
+=3D"http://localhost/assets/css/templatemo-style.css" rel=3D"stylesheet">=
+
+    <!--ACCOUNT-->
+    <link href=3D"http://localhost/assets/css/accou=
+nt.css" rel=3D"stylesheet">
+</head>
+
+<body class=3D"body_back" id=3D"=
+top" data-spy=3D"scroll" data-target=3D".navbar-collapse" data-offset=3D"50=
+">
+    <!-- PRE LOADER -->
+    <section class=3D"preloader">
+        =
+<div class=3D"spinner">
+            <span class=3D"spinner-rotate"></span=
+>
+        </div>
+    </section>
+    <header class=3D"header_line">
+=
+    <nav class=3D"navbar navbar-expand-md navbar-dark fixed-top bg-dark">=
+
+        <div class=3D"container-fluid">
+            <a class=3D"navbar=
+-brand" href=3D"http://localhost">AggFitness</a>
+            <button clas=
+s=3D"navbar-toggler" type=3D"button" data-bs-toggle=3D"collapse" data-bs-ta=
+rget=3D"#navbarCollapse"
+                aria-controls=3D"navbarCollapse"=
+ aria-expanded=3D"false" aria-label=3D"Toggle navigation">
+              =
+  <span class=3D"navbar-toggler-icon"></span>
+            </button>
+   =
+         <div class=3D"collapse navbar-collapse" id=3D"navbarCollapse">
+ =
+               <ul class=3D"navbar-nav me-auto mb-2 mb-md-0">
+           =
+         <li class=3D"nav-item">
+                        <a class=3D"nav-=
+link " aria-current=3D"page"
+                            href=3D"http://l=
+ocalhost">=D0=93=D0=BB=D0=B0=D0=B2=D0=BD=D0=B0=D1=8F</a>
+                =
+    </li>
+                    <li class=3D"nav-item">
+                 =
+       <a class=3D"nav-link "
+                            href=3D"http://=
+localhost/trainers/0/0">=D0=A2=D1=80=D0=B5=D0=BD=D0=B5=D1=80=D1=8B</a>
+  =
+                  </li>
+                                                 =
+                                           <li class=3D"nav-item">
+      =
+                          <a class=3D"nav-link "
+                        =
+            href=3D"http://localhost/login">=D0=92=D1=85=D0=BE=D0=B4</a>
+=
+                            </li>
+                       =20
+            =
+                                        <li class=3D"nav-item">
+         =
+                       <a class=3D"nav-link "
+                           =
+         href=3D"http://localhost/register">=D0=A0=D0=B5=D0=B3=D0=B8=D1=
+=81=D1=82=D1=80=D0=B0=D1=86=D0=B8=D1=8F</a>
+                            <=
+/li>
+                                                            </ul>
+=
+                                    <div class=3D"btn-group align-self-star=
+t me-2 mb-2">
+                        <a href=3D"http://localhost/send#ph=
+one_mask" class=3D"btn btn-outline-success">
+                            =
+&#9660 =D0=9D=D0=BE=D0=B2=D0=BE=D1=81=D1=82=D0=B8 &#9660
+                =
+        </a>
+                    </div>
+                            </d=
+iv>
+        </div>
+    </nav>
+</header>
+    <main class=3D"main_bac=
+k">
+            <h1>=D0=9E=D0=B1=D1=80=D0=B0=D1=82=D0=BD=D0=B0=D1=8F =
+=D1=81=D0=B2=D1=8F=D0=B7=D1=8C</h1>
+            <form method=3D"post" act=
+ion=3D"/send">
+        <input type=3D"hidden" name=3D"_token" value=3D"zp=
+Cx1ALirehVGcKNYWTM6R7VgQXFfCILnki629r0">        <div class=3D"form-group">=
+
+            <input type=3D"text" class=3D"form-control" name=3D"name" pl=
+aceholder=3D"=D0=98=D0=BC=D1=8F, =D1=84=D0=B0=D0=BC=D0=B8=D0=BB=D0=B8=D1=
+=8F"
+                   required maxlength=3D"100" value=3D"">
+        =
+</div>
+        <div class=3D"form-group">
+            <input type=3D"em=
+ail" class=3D"form-control" name=3D"email" placeholder=3D"=D0=90=D0=B4=
+=D1=80=D0=B5=D1=81 =D0=BF=D0=BE=D1=87=D1=82=D1=8B"
+                   req=
+uired maxlength=3D"100" value=3D"">
+        </div>
+        <div class=
+=3D"form-group">
+        <textarea class=3D"form-control" name=3D"message=
+" placeholder=3D"=D0=92=D0=B0=D1=88=D0=B5 =D1=81=D0=BE=D0=BE=D0=B1=D1=89=
+=D0=B5=D0=BD=D0=B8=D0=B5"
+                  required maxlength=3D"500" ro=
+ws=3D"3"></textarea>
+        </div>
+        <div class=3D"form-group">=
+
+            <button type=3D"submit" class=3D"btn btn-primary">=D0=9E=
+=D1=82=D0=BF=D1=80=D0=B0=D0=B2=D0=B8=D1=82=D1=8C</button>
+        </div>=
+
+    </form>
+    </main>
+
+    <!-- FOOTER -->
+<div class=3D"foote=
+r_box">
+    <div class=3D"container">
+        <footer class=3D"py-5 foo=
+ter_design">
+            <div class=3D"row">
+                <div class=
+=3D"col-6 col-md-2 mb-3">
+                    <h5>AggFitness</h5>
+     =
+               <a class=3D"mb-2 btn btn-outline-success" href=3D"#">&#8593 =
+&#8593 &#8593</a>
+                    <ul class=3D"nav flex-column">
+  =
+                      <li class=3D"nav-item mb-2"><a class=3D"link-light te=
+xt-white-50" href=3D"http://localhost"
+                                cl=
+ass=3D"nav-link p-0 text-muted">=D0=93=D0=BB=D0=B0=D0=B2=D0=BD=D0=B0=D1=
+=8F</a>
+                        </li>
+                        <li class=
+=3D"nav-item mb-2"><a class=3D"link-light text-white-50"
+                =
+                href=3D"http://localhost/trainers/0/0"
+                  =
+              class=3D"nav-link p-0 text-muted">=D0=A2=D1=80=D0=B5=D0=BD=
+=D0=B5=D1=80=D1=8B</a></li>
+                        <li class=3D"nav-item=
+ mb-2"><a class=3D"link-light text-white-50" href=3D"#"
+                 =
+               class=3D"nav-link p-0 text-muted">=D0=9E
+                 =
+               =D0=BD=D0=B0=D1=81</a></li>
+                        <li cl=
+ass=3D"nav-item mb-2"><a class=3D"link-light text-white-50" href=3D"#"
+  =
+                              class=3D"nav-link p-0 text-muted">=D0=9A=
+=D0=BE=D0=BD=D1=82=D0=B0=D0=BA=D1=82=D1=8B</a></li>
+                     =
+   <li class=3D"nav-item mb-2"><a class=3D"link-light text-white-50" href=
+=3D"#"
+                                class=3D"nav-link p-0 text-muted">=
+=D0=A4=D0=B8=D1=82=D0=BD=D0=B5=D1=81=D1=81 =D0=B7=D0=B0=D0=BB=D1=8B</a>
+ =
+                       <li class=3D"nav-item mb-2"><a class=3D"link-light t=
+ext-white-50" href=3D"#"
+                                class=3D"nav-lin=
+k p-0 text-muted">=D0=9A=D0=BE=D0=BC=D0=B0=D0=BD=D0=B4=D0=B0
+            =
+                    =D1=80=D0=B0=D0=B7=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D1=
+=87=D0=B8=D0=BA=D0=BE=D0=B2</a>
+                        </li>
+         =
+           </ul>
+                </div>
+
+                <div class=
+=3D"col-md-5 offset-md-1 mb-3">
+                    <h5>=D0=9F=D0=BE=
+=D0=B4=D0=BF=D0=B8=D1=88=D0=B8=D1=82=D0=B5=D1=81=D1=8C =D0=BD=D0=B0 =D0=
+=BD=D0=B0=D1=88=D1=83 =D1=80=D0=B0=D1=81=D1=81=D1=8B=D0=BB=D0=BA=D1=83</h5>=
+
+                    <p>=D0=A3=D0=B7=D0=BD=D0=B0=D0=B9=D1=82=D0=B5 =D0=
+=BF=D0=B5=D1=80=D0=B2=D1=8B=D0=BC =D0=BE =D0=BD=D0=B0=D1=88=D0=B8=D1=85 =
+=D1=81=D0=BA=D0=B8=D0=B4=D0=BA=D0=B0=D1=85 =D0=B8 =D0=B0=D0=BA=D1=86=D0=
+=B8=D1=8F=D1=85</p>
+                    <form method=3D"post" action=3D"h=
+ttp://localhost/subscriptions?status=3D1"
+                        class=
+=3D"d-flex flex-column flex-sm-row w-100 gap-2">
+                        =
+<input type=3D"hidden" name=3D"_token" value=3D"zpCx1ALirehVGcKNYWTM6R7VgQX=
+FfCILnki629r0">                        <label for=3D"phone_mask" class=3D"v=
+isually-hidden">Phone number</label>
+                        <input id=3D=
+"phone_mask" type=3D"text" name=3D"phone" class=3D"form-control" placeholde=
+r=3D"=D0=A2=D0=B5=D0=BB=D0=B5=D1=84=D0=BE=D0=BD">
+                       =
+ <label for=3D"newsletter1" class=3D"visually-hidden">Email address</label>=
+
+                        <input id=3D"newsletter1" type=3D"email" name=3D=
+"email" class=3D"form-control"
+                            placeholder=3D=
+"=D0=AD=D0=BB=D0=B5=D0=BA=D1=82=D1=80=D0=BE=D0=BD=D0=BD=D0=B0=D1=8F =D0=
+=BF=D0=BE=D1=87=D1=82=D0=B0">
+                        <button class=3D"bt=
+n btn-outline-success" type=3D"submit">=D0=9F=D0=BE=D0=B4=D0=BF=D0=B8=D1=
+=81=D0=B0=D1=82=D1=8C=D1=81=D1=8F</button>
+                    </form>
+=
+                    <div class=3D"p-2">
+                        <p>=D0=
+=A3=D0=BA=D0=B0=D0=B6=D0=B8=D1=82=D0=B5 =D0=BD=D0=BE=D0=BC=D0=B5=D1=80 =
+=D1=82=D0=B5=D0=BB=D0=B5=D1=84=D0=BE=D0=BD=D0=B0, =D1=87=D1=82=D0=BE=D0=
+=B1=D1=8B =D0=BC=D1=8B =D1=83=D0=B1=D0=B5=D0=B4=D0=B8=D0=BB=D0=B8=D1=81=
+=D1=8C, =D1=87=D1=82=D0=BE =D0=B2=D1=8B =D0=BD=D0=B5 =D1=80=D0=BE=D0=B1=
+=D0=BE=D1=82. =D0=A0=D0=B0=D1=81=D1=81=D1=8B=D0=BB=D0=BA=D0=B0 =D0=B1=D1=
+=83=D0=B4=D0=B5=D1=82 =D0=BF=D1=80=D0=B8=D1=85=D0=BE=D0=B4=D0=B8=D1=82=
+=D1=8C =D1=82=D0=BE=D0=BB=D1=8C=D0=BA=D0=BE
+                            =
+=D0=BD=D0=B0 =D0=B2=D0=B0=D1=88 email.</p>
+                    </div>
+ =
+               </div>
+            </div>
+            <div class=3D"d-fl=
+ex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">=
+
+                <p>&copy; 2022 AggFitness, =D1=87=D0=B0=D1=81=D1=82=
+=D0=BD=D0=BE=D0=B5 =D0=BF=D1=80=D0=B8=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=
+=B8=D0=B5. =D0=92=D1=81=D0=B5 =D0=BF=D1=80=D0=B0=D0=B2=D0=B0 =D0=B7=D0=
+=B0=D1=89=D0=B8=D1=89=D0=B5=D0=BD=D1=8B</p>
+            </div>
+        =
+</footer>
+    </div>
+</div>
+    <!-- SCRIPTS -->
+    <script src=3D=
+"http://localhost/assets/js/bootstrap.bundle.min.js"></script>
+    <scrip=
+t src=3D"http://localhost/assets/js/jquery.js"></script>
+    <script src=
+=3D"http://localhost/assets/js/bootstrap.min.js"></script>
+    <script sr=
+c=3D"http://localhost/assets/js/smoothscroll.js"></script>
+    <script sr=
+c=3D"http://localhost/assets/js/custom.js"></script>
+    <!-- =D0=A1=
+=D0=BA=D1=80=D0=B8=D0=BF=D1=82=D1=8B =D0=B4=D0=BB=D1=8F =D0=BC=D0=B0=D1=
+=81=D0=BA=D0=B8 =D1=82=D0=B5=D0=BB=D0=B5=D1=84=D0=BE=D0=BD=D0=B0 =D0=B2 =
+=D0=BF=D0=BE=D0=BB=D0=B5 input, =D1=83=D0=BA=D0=B0=D0=B7=D1=8B=D0=B2=D0=
+=B0=D0=B5=D0=BC =D0=B4=D0=BB=D1=8F =D0=BF=D0=BE=D0=BB=D1=8F input id=3D"pho=
+ne_mask" -->
+    <script src=3D"https://code.jquery.com/jquery-3.6.0.js" =
+integrity=3D"sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=3D"
+     =
+   crossorigin=3D"anonymous"></script>
+    <script src=3D"http://localhos=
+t/assets/js/mask/jquery.maskedinput.min.js"></script>
+    <script src=3D"=
+http://localhost/assets/js/mask/main_mask.js"></script>
+</body>
+
+</ht=
+ml>
+  

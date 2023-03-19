@@ -1,0 +1,43 @@
+<?php
+
+return [
+    'first' => [
+        'best',
+        'max',
+        'beast',
+        'fitness',
+        'sport',
+        'success',
+        'winner',
+        'athlete',
+        'game',
+        'opportunity',
+        'possibility',
+        'respect',
+        'deference',
+        'level',
+        'eagle',
+        'lion',
+        'cougar',
+        'hawk',
+        'courage',
+    ],
+    'second' => [
+        'energy',
+        'power',
+        'flow',
+        'growth',
+        'evolution',
+        'promotion',
+        'movement',
+        'shot',
+    ],
+    'domen' => [
+        '@gmail.com',
+        '@yandex.ru',
+        '@mail.ru',
+        '@rambler.ru',
+        '@bk.ru',
+        '@inbox.ru',
+    ],
+];

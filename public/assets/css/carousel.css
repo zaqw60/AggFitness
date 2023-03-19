@@ -1,0 +1,384 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 20;
+  color: aliceblue;
+}
+.carousel-caption h1 {
+  color: #ced4da
+}
+.carousel-caption p {
+    color: #bdadad
+}
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+/* rtl:begin:remove */
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+
+/* rtl:end:remove */
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+.body_back{
+  background-color: #212529;
+}
+.header_line {
+  border-bottom: 1px solid #198754;
+}
+.main_back{
+  background-color: #dddddd;
+}
+.dark_glass{
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.glass{
+  background-color: rgba(0, 0, 0, 0.753);
+  z-index: 30;
+}
+.promo_image{
+  width: 100%;
+  height: auto;
+  opacity: 0.2;
+  flex-shrink: 0;
+}
+.promo_info{
+  z-index: 20;
+}
+.footer_box{
+  border-top: 2px solid #198754;
+}
+.footer_design{
+  background-color: #212529;
+  width: 100%;
+  margin: 0px auto;
+}
+.exit_back{
+  background-color: #941818;
+}
+.small_market_image{
+  max-width: 300px;
+  height: auto;
+  box-shadow: 0px 0px 20px #212529;
+  border-radius: 4px;
+ }
+@media (max-width: 1410px) {
+  .small_market_image {
+    max-width: 220px;
+    margin: 0px 32px 32px 0px;
+  }
+}
+@media (max-width: 1000px) {
+  .small_market_image {
+    max-width: 160px;
+    margin: 0px 32px 32px 0px;
+  }
+}
+.market_image{
+  max-width: 500px;
+  height: auto;
+  box-shadow: 0px 0px 20px #212529;
+  border-radius: 4px;
+}
+@media (max-width: 1410px) {
+  .market_image {
+    max-width: 350px;
+  }
+}
+@media (max-width: 1000px) {
+  .market_image {
+    max-width: 250px;
+  }
+}
+.index_image{
+  width: 170px;
+  height: auto;
+  border-radius: 3px;
+}
+.trainers_box{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.item_box{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+max-width: 400px;
+min-height: 100%;
+box-shadow: 0px 0px 20px #212529;
+border-radius: 4px;
+box-sizing: border-box;
+padding: 24px 24px;
+margin: 0px 6px 36px;
+}
+.trainers_name{
+  text-align: center;
+}
+.trainers_text{
+  align-self: flex-start;
+}
+.tags_box{
+  width: 100vw;
+  box-shadow: -5px 0px 5px #000000;
+}
+.menu_height{
+  height: 600px;
+}
+@media (max-width: 760px) {
+  .menu_height{
+    height: 300px;
+  }
+}
+.review_image{
+  max-width: 205px;
+}
+@media (max-width: 540px) {
+  .review_image{
+    max-width: 180px;
+  }
+}
+.gymReview_image{
+  max-width: 326px;
+}
+@media (max-width: 540px) {
+  .gymReview_image{
+    max-width: 180px;
+  }
+}
+.about_self{
+ min-width: 160px;
+}
+@media (max-width: 590px) {
+  .about_self{
+    display: none;
+  }
+}
+@media (max-width: 520px) {
+  .contacts_hide{
+    display: none;
+  }
+  }
+@media (max-width: 770px) {
+.addresses_hide{
+  display: none;
+}
+}
+@media (min-width: 770px) {
+  .addresses_show{
+    display: none;
+  }
+}
+.review_number{
+  max-width: 80px;
+}
+.sendDiv{
+    min-height: 440px;
+    padding: 150px 0px;
+}
+.sendarea {
+    padding: 15px 0px;
+}
+.logo_image {
+  width: 220px;
+  height: auto;
+}
+
+.logo_image_header {
+  width: 50px;
+  height: auto;
+}
+.about_height{
+  max-height: 180px;
+}
+.partners_scroll{
+  max-height: 192px; 
+  overflow-y:scroll;
+}
+.social_network{
+   max-width: 200px;
+}
+.social_network_scroll{
+  overflow-y: scroll;
+  max-height: 88px;
+}
+.marketing_height{
+  height: 200px;
+}
+.met_box{
+  max-width: 276px;
+}
+.met_width{
+  min-width: 210px;
+}
+.scale{
+  max-width: 150px;
+  height: auto;
+  cursor: pointer;
+}
+.scale_image{
+  max-width: inherit;
+  height: auto;
+}
+.scale_selector{
+  margin: -8px 0px 0px 0px;
+}
+.news_image{
+  width: 180px;
+  height: auto;
+}
+.news_height{
+  height: 240px;
+}
+@media (max-width: 991px) {
+  .news_height{
+      overflow-y:scroll;
+  }
+}
+.social_blue{
+  transition: all 0.25s;
+}
+.social_blue:hover{
+box-shadow: 0px 0px 16px #0d6efd;
+}
+.social_green{
+  transition: all 0.25s;
+}
+.social_green:hover{
+box-shadow: 0px 0px 16px #198754;
+}
+.social_dark{
+  transition: all 0.25s;
+}
+.social_dark:hover{
+box-shadow: 0px 0px 16px #000000;
+}
+.social_red{
+  transition: all 0.25s;
+}
+.social_red:hover{
+box-shadow: 0px 0px 16px #fd0d0d;
+}
